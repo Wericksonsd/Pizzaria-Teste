@@ -52,6 +52,16 @@ section{
     grid-column: 8/10;    
     grid-row: 4/15;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section div{
+    min-width: 50px;
+    min-height: 50px;
+    background-color: aliceblue;
 }
 
 article{
