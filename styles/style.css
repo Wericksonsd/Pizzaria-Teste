@@ -1,9 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tela{
@@ -30,7 +32,7 @@ header img{
 
 menu{
     grid-column: 1/10;
-    grid-row: 3/4;
+    grid-row: 3;
     background-color: blueviolet;
     display: flex;
     align-items: center;
@@ -42,22 +44,48 @@ menu a{
     text-decoration: none;
 }
 
-/*/////////////////////////////////////
-/////////////  MAIN  //////////////////
-/////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+///////////////////////////////  MAIN  ///////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////*/
 
 main{
     grid-column: 1/10;
     grid-row: 4/15;
     background-color: chocolate;
+    height: 100%;
 }
 
+/*/////////////////////////////////////
+///////////// CARDÁPIO ////////////////
+/////////////////////////////////////*/
+
 #cardapio{
-    background-color: black;
+    background-color: rgb(255, 252, 244);
     width: 100%;
     height: 100%;
-    display: none;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
 }
+
+#cardapio h1{
+    color: brown;
+}
+
+#cardapio h3{
+    padding-top: 10px;
+    padding-left: 15px;  
+}
+
+#cardapio p{
+    padding-left: 15px;  
+}
+
+/*/////////////////////////////////////
+////////////// PEDIDOS ////////////////
+/////////////////////////////////////*/
 
 #pedidos{
     background-color: rgb(49, 49, 49);
@@ -69,7 +97,7 @@ main{
 #montarPizza{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
 }
 
 #displayPizza{
