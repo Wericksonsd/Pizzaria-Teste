@@ -14,7 +14,7 @@
     background-color: rgb(53, 53, 53);
     display: grid;
     grid-template-columns: (10, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: (10, 1fr);
 }
 
 header{
@@ -52,9 +52,8 @@ menu a{
 
 main{
     grid-column: 1/10;
-    grid-row: 4/15;
+    grid-row: 4/8;
     background-color: chocolate;
-    height: 100%;
 }
 
 /*/////////////////////////////////////
@@ -147,11 +146,11 @@ section div:hover{
 
 article{
     grid-column: 1/10;
-    grid-row: 15/17;
+    grid-row: 8/10;
     background-color: burlywood;
 }
 footer{
     grid-column: 1/10;
-    grid-row: 17;
+    grid-row: 10;
     background-color: aquamarine;
 }
