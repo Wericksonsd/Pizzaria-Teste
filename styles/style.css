@@ -14,7 +14,7 @@
     background-color: rgb(53, 53, 53);
     display: grid;
     grid-template-columns: (10, 1fr);
-    grid-template-rows: (10, 1fr);
+    grid-template-rows: auto;
 }
 
 header{
@@ -54,6 +54,7 @@ main{
     grid-column: 1/10;
     grid-row: 4/8;
     background-color: chocolate;
+    height: 550px;
 }
 
 /*/////////////////////////////////////
