@@ -68,6 +68,7 @@ main{
     padding: 18px;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 #cardapio h1{
